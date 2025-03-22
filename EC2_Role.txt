@@ -1,0 +1,8 @@
+Create an IAM Role for EC2
+Go to the AWS IAM Console → Roles → Create Role
+
+Choose AWS Service → EC2 → Click Next
+
+Attach the AmazonS3ReadOnlyAccess policy
+
+Name the role (e.g., EC2-S3-Access) and create it
