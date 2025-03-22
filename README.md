@@ -51,7 +51,9 @@ sudo systemctl enable httpd
 ```bash
 sudo vim /var/www/html/index.html
 ```
-📍 **3. Check your public IP in a browser**
+📍 **3. Copy the contents of the index.html in EC2 folder into the newly created index.html**
+
+📍 **4. Check your public IP in a browser**
 ```
 http://your-ec2-public-ip
 ```
