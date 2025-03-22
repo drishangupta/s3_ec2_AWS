@@ -24,9 +24,13 @@ C:\> msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
 
 ##  Step 1: Launch an EC2 Instance
 📍 **1. Open AWS Console** → Go to **EC2 Dashboard**
+
 📍 **2. Click ‘Launch Instance’** → Choose **Amazon Linux 2 AMI**
+
 📍 **3. Select Instance Type** → Choose **t2.micro (Free Tier)**
+
 📍 **4. Configure Security Group** → Allow **HTTP (port 80)** & **SSH (port 22)**
+
 📍 **5. Launch and Connect via SSH**
 
 ```bash
