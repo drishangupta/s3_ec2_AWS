@@ -62,6 +62,7 @@ http://your-ec2-public-ip
 
 ##  Step 3: Host a Static Website on S3
 📍 **1. Create an S3 Bucket**
+
 Through console or the command
 ```bash
 aws s3 mb s3://my-static-site-bucket --region ap-south-1
@@ -69,7 +70,9 @@ aws s3 mb s3://my-static-site-bucket --region ap-south-1
 📍 **2. Enable Static Website Hosting** (Go to S3 → Properties → Static Website Hosting → Enable)
 
 📍 **3. Update the bucket policy**
+
 Using the file in S3 folder
+
 📍 **4. Access Your Site via Bucket URL** 🎉
 
 ---
