@@ -71,7 +71,11 @@ aws s3 mb s3://my-static-site-bucket --region ap-south-1
 
 If we want to serve the html file through s3 
 
-📍 **3. Update the bucket policy**
+📍 **3. Attach a least privilidge role to EC2**
+
+Steps in EC2 Foler
+
+📍 **4. Update the bucket policy**
 
 Using the file in S3 folder
 
