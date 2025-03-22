@@ -13,7 +13,10 @@ Welcome to the **AWS Hosting Workshop**, where you'll learn how to deploy websit
 ##  Prerequisites
 Before we begin, make sure you have:
 ✅ An **AWS Free Tier** account ([Sign Up Here](https://aws.amazon.com/free/))  
-✅ **AWS CLI installed** ([Guide](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html))  
+✅ **AWS CLI installed** 
+```bash
+C:\> msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
+```
 ✅ Basic knowledge of **Linux commands**  
 
 ---
