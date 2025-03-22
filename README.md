@@ -67,13 +67,13 @@ Through console or the command
 ```bash
 aws s3 mb s3://my-static-site-bucket --region ap-south-1
 ```
-📍 **2. Enable Static Website Hosting** (Go to S3 → Properties → Static Website Hosting → Enable)
+📍 (Optional)**2. Enable Static Website Hosting** (Go to S3 → Properties → Static Website Hosting → Enable)
+
+If we want to serve the html file through s3 
 
 📍 **3. Update the bucket policy**
 
 Using the file in S3 folder
-
-📍 **4. Access Your Site via Bucket URL** 🎉
 
 ---
 
