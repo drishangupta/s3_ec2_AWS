@@ -45,7 +45,7 @@ sudo systemctl enable httpd
 ```
 📍 **2. Deploy a Simple HTML Page**
 ```bash
-echo "<h1>Welcome to My EC2 Website 🚀</h1>" | sudo tee /var/www/html/index.html
+sudo vim /var/www/html/index.html
 ```
 📍 **3. Check your public IP in a browser**
 ```
