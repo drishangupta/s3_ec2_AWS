@@ -1,16 +1,16 @@
 # AWS Workshop: Hosting Websites with S3 & EC2
 
-## 📌 Overview
+##  Overview
 Welcome to the **AWS Hosting Workshop**, where you'll learn how to deploy websites using **Amazon S3 (for static sites)** and **EC2 (for dynamic sites)**. By the end, you'll know when to use each service and how to get started with both. Let's dive in! 💻☁️
 
-## 🎯 What You’ll Learn
+##  What You’ll Learn
 - **Launch an EC2 instance** and deploy a simple web page
 - **Host a static website on S3**
 - **Compare EC2 vs. S3** to decide the best hosting option
 
 ---
 
-## 🔥 Prerequisites
+##  Prerequisites
 Before we begin, make sure you have:
 ✅ An **AWS Free Tier** account ([Sign Up Here](https://aws.amazon.com/free/))  
 ✅ **AWS CLI installed** ([Guide](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html))  
@@ -18,7 +18,7 @@ Before we begin, make sure you have:
 
 ---
 
-## 🌐 Step 1: Launch an EC2 Instance
+##  Step 1: Launch an EC2 Instance
 📍 **1. Open AWS Console** → Go to **EC2 Dashboard**
 📍 **2. Click ‘Launch Instance’** → Choose **Amazon Linux 2 AMI**
 📍 **3. Select Instance Type** → Choose **t2.micro (Free Tier)**
@@ -31,7 +31,7 @@ ssh -i your-key.pem ec2-user@your-ec2-public-ip
 
 ---
 
-## 🖥️ Step 2: Install Apache & Deploy a Web Page
+##  Step 2: Install Apache & Deploy a Web Page
 📍 **1. Update & Install Apache**
 ```bash
 sudo yum update -y
@@ -50,7 +50,7 @@ http://your-ec2-public-ip
 
 ---
 
-## 📂 Step 3: Host a Static Website on S3
+##  Step 3: Host a Static Website on S3
 📍 **1. Create an S3 Bucket**
 ```bash
 aws s3 mb s3://my-static-site-bucket --region us-east-1
@@ -64,7 +64,7 @@ aws s3 cp index.html s3://my-static-site-bucket --acl public-read
 
 ---
 
-## 🔥 EC2 vs. S3: When to Use What?
+##  EC2 vs. S3: When to Use What?
 | Feature  | EC2 | S3 |
 |----------|-----|----|
 | **Dynamic Websites** | ✅ | ❌ |
@@ -77,7 +77,7 @@ aws s3 cp index.html s3://my-static-site-bucket --acl public-read
 
 ---
 
-## 🏆 Bonus: CloudFront for Faster S3 Hosting
+## 🏆Bonus: CloudFront for Faster S3 Hosting
 Want even faster delivery? Add **AWS CloudFront** to cache and serve your S3 website globally! 🌍
 
 ```bash
@@ -86,9 +86,9 @@ aws cloudfront create-distribution --origin-domain-name my-static-site-bucket.s3
 
 ---
 
-## 🎤 Q&A & Resources
-- 📚 **AWS EC2 Docs:** [Click Here](https://aws.amazon.com/ec2/)
-- 📚 **AWS S3 Docs:** [Click Here](https://aws.amazon.com/s3/)
-- 🚀 **Follow Me for More!**
+##  Q&A & Resources
+-  **AWS EC2 Docs:** [Click Here](https://aws.amazon.com/ec2/)
+-  **AWS S3 Docs:** [Click Here](https://aws.amazon.com/s3/)
+-  **Follow Me for More!**
 
-👨‍💻 Happy Hosting! 🚀
+ Happy Hosting! 
