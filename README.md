@@ -106,6 +106,4 @@ aws cloudfront create-distribution --origin-domain-name my-static-site-bucket.s3
 ##  Q&A & Resources
 -  **AWS EC2 Docs:** [Click Here](https://aws.amazon.com/ec2/)
 -  **AWS S3 Docs:** [Click Here](https://aws.amazon.com/s3/)
--  **Follow Me for More!**
-
  Happy Hosting! 
